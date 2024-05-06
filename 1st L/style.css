@@ -1,0 +1,42 @@
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height:100%;
+    width: 100%;
+    background-color: white;
+}
+.box,.box2,.box1,.box3,.box4,.box5{
+    height:300px;
+    width:300px;
+    background-color:crimson;
+}
+.box2{
+    background-color:red;
+}
+.box3{
+    background-color:yellow;
+}
+.box4{
+    background-color:pink;
+}
+.box5{
+    background-color:green;
+}
+h1{
+    color: blue;
+}
+nav{
+    padding:20px;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;;
+    font-size: 40px;
+}
+.bal{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}

@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: cadetblue;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image{
+    width: 60vw;
+    height: 30vw;
+    position: relative;
+}
+.image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    
+}
+.cursor{
+    height: 20px;
+    width: 20px;
+    position: fixed;
+    background-color: white;
+    border-radius: 50%;
+    z-index: 9;
+    font-size: 5px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    z-index: 10;
+}
